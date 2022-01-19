@@ -60,7 +60,7 @@ pipeline {
 //           }
 		 steps{
   sh "mvn clean sonar:sonar"
-}
+// }
 
 //           steps {
 //             withSonarQubeEnv('sonar-pro') {
